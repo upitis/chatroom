@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="ChatFX">
+    <output-path>$PROJECT_DIR$/out/artifacts/ChatFX</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="com.upitis.chat.client.ClientGuiFxView" />
+        <option name="description" value="" />
+        <option name="htmlParamFile" value="" />
+        <option name="paramFile" value="" />
+        <option name="title" value="ChatClien" />
+        <option name="vendor" value="UpitisKI" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="Chat.jar">
+        <element id="module-output" name="Chat" />
+      </element>
+    </root>
+  </artifact>
+</component>
