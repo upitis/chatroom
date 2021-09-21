@@ -1,0 +1,14 @@
+
+target/*
+!target/*.war
+
+out/production/
+
+
+#IntelliJ
+.idea/
+*.iml
+*.iws
+
+#Mac OS
+.DS_store

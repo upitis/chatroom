@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0" codebase="http://192.168.8.170:28180/FEM-web/webstart/" href="fem.jnlp">
+    <information>
+        <title>Front End Module</title>
+        <vendor>LMA</vendor>
+        <description>Front End Module</description>
+    </information>
+    <resources>
+        <j2se version="1.5*" href="http://java.sun.com/products/autodl/j2se">
+            <resources>
+                <jar href="FEM-app-default-4.2.1.jar" main="true"/>
+                <jar href="jbossws-native-client-3.0.2.GA.jar"/>
+                <jar href="jbossws-native-jaxws-ext-3.0.2.GA.jar"/>
+                <jar href="jbossws-native-jaxws-3.0.2.GA.jar"/>
+                <jar href="jbossws-native-saaj-3.0.2.GA.jar"/>
+                <jar href="activation-1.1.1.jar"/>
+                <jar href="jaxb-api-2.1.jar"/>
+                <jar href="stax-api-1.0-2.jar"/>
+                <jar href="jbossws-native-jaxrpc-3.0.2.GA.jar"/>
+                <jar href="jbossws-native-core-3.0.2.GA.jar"/>
+                <jar href="jbossws-common-1.0.5.GA.jar"/>
+                <jar href="jbossws-spi-1.0.4.GA.jar"/>
+                <jar href="dom4j-1.6.1.jar"/>
+                <jar href="getopt-1.0.13.jar"/>
+                <jar href="commons-logging-1.1.1.jar"/>
+                <jar href="jaxb-impl-2.1.6.jar"/>
+                <jar href="jaxb-xjc-2.1.6.jar"/>
+                <jar href="FastInfoset-1.2.2.jar"/>
+                <jar href="jaxws-tools-2.1.3.jar"/>
+                <jar href="jettison-1.0-RC2.jar"/>
+                <jar href="mail-1.4.jar"/>
+                <jar href="jboss-jaxb-intros-1.0.0.beta2.jar"/>
+                <jar href="jboss-remoting-2.4.0.CR1.jar"/>
+                <jar href="policy-1.0.jar"/>
+                <jar href="wstx-lgpl-3.1.1.jar"/>
+                <jar href="wsdl4j-1.6.1.jar"/>
+                <jar href="javassist-3.6.0.GA.jar"/>
+                <jar href="jboss-logging-log4j-2.0.5.GA.jar"/>
+                <jar href="jboss-logging-spi-2.0.5.GA.jar"/>
+                <jar href="log4j-1.2.14.jar"/>
+                <jar href="jboss-common-1.2.1.GA-brew.jar"/>
+                <jar href="xercesImpl-2.9.1.jar"/>
+                <jar href="xml-apis-1.3.04.jar"/>
+                <jar href="jbossxb-2.0.1.GA.jar"/>
+                <jar href="jboss-common-core-2.2.9.GA.jar"/>
+                <jar href="jboss-reflect-2.0.2.GA.jar"/>
+                <jar href="xml-apis-2.9.1.jar"/>
+                <jar href="xercesImpl-2.9.1.jar"/>
+                <jar href="dtdparser121-1.2.1.jar"/>
+                <jar href="jaxb-api-2.1.9.jar"/>
+                <jar href="concurrent-1.3.4.jar"/>
+                <jar href="swingx-0.9.1.jar"/>
+                <jar href="filters-2.0.235.jar"/>
+                <jar href="swing-worker-1.1.jar"/>
+                <jar href="swing-layout-1.0.3.jar"/>
+                <jar href="multiplegradientpaint-1.0.jar"/>
+                <jar href="httpclient-4.0.1.jar"/>
+                <jar href="httpcore-4.0.1.jar"/>
+                <jar href="commons-codec-1.3.jar"/>
+                <jar href="XMLDSExt-2.1.jar"/>
+                <jar href="xml-security-1.3.0.jar"/>
+                <jar href="CPPP-JCACP-2.1.jar"/>
+                <jar href="FEM-native-4.2.1.jar"/>
+            </resources>
+        </j2se>
+        <j2se version="1.6*" href="http://java.sun.com/products/autodl/j2se">
+            <resources>
+                <jar href="FEM-app-default-jre6-4.2.1.jar" main="true"/>
+                <jar href="jbossws-native-client-3.3.0.CR1.jar"/>
+                <jar href="jbossws-native-core-3.3.0.CR1.jar"/>
+                <jar href="jbossws-common-1.3.0.CR1.jar"/>
+                <jar href="jbossws-spi-1.3.0.CR1.jar"/>
+                <jar href="dom4j-1.6.1.jar"/>
+                <jar href="getopt-1.0.13.jar"/>
+                <jar href="jboss-jaxb-intros-1.0.2.GA.jar"/>
+                <jar href="commons-beanutils-1.8.0.jar"/>
+                <jar href="commons-logging-1.1.1.jar"/>
+                <jar href="jbossws-framework-3.3.0.CR1.jar"/>
+                <jar href="jaxrpc-api-1.1.jar"/>
+                <jar href="saaj-api-1.3.jar"/>
+                <jar href="jbossws-native-factories-3.3.0.CR1.jar"/>
+                <jar href="jaxws-api-2.2.jar"/>
+                <jar href="jsr181-api-1.0-MR1.jar"/>
+                <jar href="jaxb-impl-2.2.jar"/>
+                <jar href="jaxb-api-2.2.jar"/>
+                <jar href="stax-api-1.0-2.jar"/>
+                <jar href="activation-1.1.1.jar"/>
+                <jar href="jaxb-xjc-2.2.jar"/>
+                <jar href="FastInfoset-1.2.2.jar"/>
+                <jar href="jaxws-rt-2.2.jar"/>
+                <jar href="streambuffer-1.0.jar"/>
+                <jar href="stax-ex-1.2.jar"/>
+                <jar href="wstx-asl-3.2.3.jar"/>
+                <jar href="stax-api-1.0.1.jar"/>
+                <jar href="resolver-20050927.jar"/>
+                <jar href="policy-2.0-b01.jar"/>
+                <jar href="txw2-20090102.jar"/>
+                <jar href="istack-commons-runtime-1.1-SNAPSHOT.jar"/>
+                <jar href="wstx-asl-3.2.1.jar"/>
+                <jar href="jaxws-tools-2.2.jar"/>
+                <jar href="jettison-1.0-RC2.jar"/>
+                <jar href="mail-1.4.jar"/>
+                <jar href="netty-3.1.5.GA.jar"/>
+                <jar href="wscommons-policy-1.0.jar"/>
+                <jar href="wstx-lgpl-3.2.6.jar"/>
+                <jar href="wsdl4j-1.6.2.jar"/>
+                <jar href="xmlsec-1.4.3.jar"/>
+                <jar href="javassist-3.6.0.GA.jar"/>
+                <jar href="jbossws-native-services-3.3.0.CR1.jar"/>
+                <jar href="jboss-logging-log4j-2.2.0.CR1.jar"/>
+                <jar href="jboss-logging-spi-2.2.0.CR1.jar"/>
+                <jar href="log4j-1.2.15.jar"/>
+                <jar href="jms-1.1.jar"/>
+                <jar href="jboss-common-1.2.1.GA-brew.jar"/>
+                <jar href="xercesImpl-2.9.1.jar"/>
+                <jar href="xml-apis-1.3.04.jar"/>
+                <jar href="jbossxb-2.0.1.GA.jar"/>
+                <jar href="jboss-common-core-2.2.9.GA.jar"/>
+                <jar href="jboss-reflect-2.0.2.GA.jar"/>
+                <jar href="xml-apis-2.9.1.jar"/>
+                <jar href="xercesImpl-2.9.1.jar"/>
+                <jar href="dtdparser121-1.2.1.jar"/>
+                <jar href="jaxb-api-2.1.9.jar"/>
+                <jar href="concurrent-1.3.4.jar"/>
+                <jar href="swingx-0.9.1.jar"/>
+                <jar href="filters-2.0.235.jar"/>
+                <jar href="swing-worker-1.1.jar"/>
+                <jar href="swing-layout-1.0.3.jar"/>
+                <jar href="multiplegradientpaint-1.0.jar"/>
+                <jar href="httpclient-4.0.1.jar"/>
+                <jar href="httpcore-4.0.1.jar"/>
+                <jar href="commons-codec-1.3.jar"/>
+                <jar href="XMLDSExt-2.1.jar"/>
+                <jar href="xml-security-1.3.0.jar"/>
+                <jar href="CPPP-JCACP-2.1.jar"/>
+                <jar href="FEM-native-4.2.1.jar"/>
+            </resources>
+        </j2se>
+    </resources>
+    <application-desc main-class="ru.labma.osm.im.fem.Main">
+        <argument>http://192.168.8.170:28180</argument>
+    </application-desc>
+    <security>
+        <all-permissions/>
+    </security>
+</jnlp>
